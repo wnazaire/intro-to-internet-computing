@@ -1,0 +1,13 @@
+a.text-primary:hover,
+a.text-primary:focus {
+  color: green;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a.active {
+    color: forestgreen;
+}

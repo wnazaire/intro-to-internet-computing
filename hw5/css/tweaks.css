@@ -1,0 +1,107 @@
+#itemDescription
+{
+    font-style: italic;
+}
+
+#page {
+    background-color: fff;
+    margin: 0 auto 0 auto;
+    position: relative;
+    text-align: center;
+}
+
+.row{
+    background-color: #99CCFF;
+}
+
+li.complete a {
+    background-image: none;
+}
+
+ul {
+    border:none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #6699FF;
+    color: #fff;
+    border-top: 1px solid #5C8AE6;
+    border-bottom: 1px solid #75A3FF;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-align: left;
+    height: 50px;
+    line-height: 48px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a:visited,
+a.active {
+    color: forestgreen;
+}
+
+.done {
+    background-color: #999;
+    color: #fff;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #b0b0b0;
+}
+
+.complete {
+    text-decoration: line-through;
+    background-position: center, center;
+    background-image: url("../img/complete.png");
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 48px;
+    float: left;
+    display: inline-block;
+}
+
+.remove {
+    background-position: center, center;
+    background-image: url("../img/equis.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    float: right;
+}
+
+.incomplete {
+    background-position: center, center;
+    background-image: url("../img/incomplete.png");
+    background-repeat: no-repeat;
+    width: 48px;
+    height: 48px;
+    float: left;
+    display: inline-block;
+}
+
+.strike {
+    text-decoration: line-through;   
+}
+
+.edit {
+    color: #000;
+    line-height: 42px;          /*This ensures that the editing box resides fully within the <li> element*/
+}
+
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    #page {
+        min-width: 350px;
+        margin: 20px auto 20px auto;
+      }
+}
+/* Larger screens act like a demo for the app */
+@media only screen and (min-width: 960px) {
+    .row {
+      max-width: 720px;
+      margin: 20px auto 20px auto;
+    }
+}

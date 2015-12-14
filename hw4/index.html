@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>Degrees and Radians Converter</title>
+        <link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="./css/tweaks.css">
+        <link rel="stylesheet" href="../font-awesome/css/font-awesome.min.css" />
+        
+        <!--Favicon-->
+        <link rel="icon" type="image/png" href="../favicon-32x32.png" sizes="32x32" />
+        <link rel="icon" type="image/png" href="../favicon-16x16.png" sizes="16x16" />
+    </head>
+    <body>
+        <div class = "container">
+            <div class = "row">
+                <div class="col-lg-12 text-center">
+                    <h1> Degrees and Radians Converter </h1>
+                    <p>Enter a number in degrees or radians, <strong>hit enter</strong> and see the result!</p>
+                    
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <div class="input-group-addon">Degrees</div>
+                                    <input type="text" class="form-control" id="deg" autofocus onkeypress="d_to_r(this);" onclick="this.select();" />
+                                <div class="input-group-addon">Radians</div>
+                                    <input type="text" class="form-control" id="rad" onkeypress="r_to_d(this);" onclick="this.select();"/>
+                            </div>
+                        </div>
+                    </form>
+                    <br>
+                    <br>
+                <p>Find out how to do this on your own at <a href="http://www.mathwarehouse.com/trigonometry/radians/convert-degee-to-radians.php">Math Warehouse</a></p>
+                
+                    <h3> The Radian and its Relationship to the Circle</h3>
+                    <img src="img/Circle_radians.gif" class="img-responsive center-block" alt="Radian's relationship to circle" width=450 height=450 longdesc="https://en.wikipedia.org/wiki/Radian#/media/File:Circle_radians.gif">
+                    
+                    <a href="../index.html">
+                        <i class="fa fa-home fa-2x"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="js/converter.js"></script>
+    </body>
+</html>

@@ -1,0 +1,48 @@
+header {
+    text-align: center;   
+}
+
+body {
+    background-color: #FFCC66;
+    font-family: sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 13;
+}
+
+h1 {
+    color: #FF6600;
+    text-align: center;
+}
+
+h3 {
+    color: #E65C00;
+}
+
+h4 {
+    color: #FF6600;
+}
+
+a:link{
+    color: #FF6600;
+    text-decoration: none;
+}
+
+a:visited {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+#ital {
+    font-style: italic;
+}
+
+#intro{
+    font-style: oblique;
+}
+
+.secretspace {
+    color: #FFCC66;
+}

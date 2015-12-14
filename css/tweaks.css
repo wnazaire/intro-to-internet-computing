@@ -1,0 +1,89 @@
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    color: #66FF66;
+}
+
+hr.star-light:after {
+    background-color: #66FF66;
+}
+
+header {
+    background: #66FF66;
+}
+
+section.success {
+    background: #66FF66;
+}
+
+.btn-outline:hover,
+.btn-outline:focus,
+.btn-outline:active,
+.btn-outline.active {
+    color: #66FF66;
+}
+
+section.success a,
+section.success a:hover,
+section.success a:focus,
+section.success a:active,
+section.success a.active {
+    outline: 0;
+    color: #66FF66;
+}
+
+.floating-label-form-group-with-focus label {
+    color: #66FF66;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #66FF66;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #66FF66;
+    background-color: transparent;
+  }
+  .navbar-default .navbar-link:hover {
+  color: #66FF66;
+}
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #66FF66;
+}
+.navbar-inverse {
+  background-color: #66FF66;
+  border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #66FF66;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #66FF66;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #66FF66;
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus
+{
+    color: #66FF66;
+}
+
+
+#portfolio .portfolio-item .portfolio-link .caption {
+    background: rgba(105,255,105,.9);
+}
