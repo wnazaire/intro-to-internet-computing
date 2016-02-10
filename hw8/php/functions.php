@@ -86,9 +86,6 @@
      }
 
     function getRelTime($time){
-        if(!ctype_digit($time))
-            $ts = strtotime($time);
-
         $diff = time() - $time;
 
         $day_diff = floor($diff / 86400);
@@ -104,6 +101,6 @@
         if($day_diff < 7) return $day_diff . ' days ago';
         if($day_diff < 31) return ceil($day_diff / 7) . ' weeks ago';
         if($day_diff < 60) return 'last month';
-        return date('F Y', $ts);
+        return date('F Y', $time);
     }
 ?>
